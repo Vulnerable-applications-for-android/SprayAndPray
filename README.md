@@ -15,4 +15,4 @@ struct chunk {
     struct chunk *chunk = malloc(sizeof(chunk));
 ```
 
-First we create a chunk structure with single character array member, which can hold 255 bytes.  An allocation is made for the chunk structure on the heap.  There is no reasoning behind its naming convention, as it will be passed in the entire file, and not an actual chunk of the file.
+First we create a chunk structure with single character array member, which can hold up to 255 bytes.  An allocation is made for the chunk structure on the heap.  There is no reasoning behind its naming convention, as it will be passed in the entire file, and not an actual chunk of the file.
